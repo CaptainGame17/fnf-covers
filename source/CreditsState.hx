@@ -24,6 +24,23 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Everyone Sings Team'],
+		['Captain',		'captain',		'Cover Creator & Mod Maker',					'https://www.youtube.com/channel/UCStTKMMLms3GBxhJVsSsAWg',	0xFF8AB6D4],
+		['Original Mod Teams'],
+		['Friday Night Funkin\' D-Sides Team',		'dsides',		'Funky Remixes',					'https://gamebanana.com/mods/305122',	0xFFE455D8],
+		['The Full-Ass Tricky Mod Team',		'tricky',		'Tricky',					'https://gamebanana.com/mods/44334',	0xFF185F40],
+		['literally every fnf mod team ever',		'bobsonslaught',		'Bob, Ron, & Little Man',					'https://gamebanana.com/mods/285296',	0xFFFFFFFF],
+		['Bob & Bosip Team',		'bobandbosip',		'Bob, Bosip, Amor...',					'https://gamebanana.com/mods/297087',	0xFF3A68FF],
+		['A.G.O.T.I. Team',		'agoti',		'A.G.O.T.I.',					'https://gamebanana.com/mods/284934',	0xFFBA1E24],
+		['Sonic.EXE Team',		'sonicexe',		'Sonic.EXE, Majin Sonic, Sunky.MPEG',					'https://gamebanana.com/mods/316022',	0xFF0058B7],
+		['Tord Team',		'tord',		'Tord',					'https://gamebanana.com/mods/44406',	0xFFCC3333],
+		['Sunday Team',		'sunday',		'Sunday',					'https://gamebanana.com/mods/300849',	0xFF669999], // nice
+		['Friday Night Fever Team',		'fridaynightfever',		'CesarFever, Taki, Tea...',					'https://gamebanana.com/mods/310465',	0xFFC353E3],
+		['FNF: DustTale Remastered Team',		'dusttale',		'Murder!Sans, Phantom!Papyrus...',					'https://gamebanana.com/mods/287084',	0xFF999999],
+		['Vs EX / Tabi Team',		'tabi',		'Tabi',					'https://gamebanana.com/mods/286388',	0xFFFFBB81],
+		['Smoke \'Em Out Struggle Team',		'garcello',		'Garcello',					'https://gamebanana.com/mods/166531',	0xFF00FF90],
+		['VS Impostor Team',		'impostor',		'A bunch of sussy bakas',					'https://gamebanana.com/mods/55652',	0xFFFF3333],
+		['HEARTBREAK: Vs Girlfriend Team',		'vsgirlfriend',		'Girlfriend',					'https://gamebanana.com/mods/46716',	0xFFA5004D],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
@@ -41,7 +58,7 @@ class CreditsState extends MusicBeatState
 		['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",					'https://twitter.com/PhantomArcade3K',	0xFFFFBB1B],
 		['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",					'https://twitter.com/evilsk8r',			0xFF53E52C],
 		['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",					'https://twitter.com/kawaisprite',		0xFF6475F3]
-	];
+	]; // they always ask what the game doin but never how the game doin
 
 	var bg:FlxSprite;
 	var descText:FlxText;
