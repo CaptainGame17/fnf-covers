@@ -20,3 +20,6 @@ spirit
 bf-pixel-opponent
 pico-player
 TrickyMask
+cesar
+taki
+Girlfriend

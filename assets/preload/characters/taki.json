@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"name": "monster_idle",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				3,
+				0
+			]
+		},
+		{
+			"anim": "singUP",
+			"name": "monster_up_note",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-10,
+				4
+			]
+		},
+		{
+			"anim": "singDOWN",
+			"name": "monster_down",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				50,
+				0
+			]
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "monster_Right_note",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-1,
+				10
+			]
+		},
+		{
+			"anim": "singLEFT",
+			"name": "monster_left note",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-20,
+				10
+			]
+		}
+	],
+	"image": "characters/taki",
+	"scale": 1,
+	"sing_duration": 4,
+	"healthicon": "takiicons",
+	"position": [
+		-10,
+		-20
+	],
+	"camera_position": [
+		-30,
+		-50
+	],
+	"flip_x": false,
+	"no_antialiasing": false,
+	"healthbar_colors": [
+		211,
+		68,
+		112
+	]
+}

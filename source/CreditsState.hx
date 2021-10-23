@@ -26,6 +26,7 @@ class CreditsState extends MusicBeatState
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Everyone Sings Team'],
 		['Captain',		'captain',		'Cover Creator & Mod Maker',					'https://www.youtube.com/channel/UCStTKMMLms3GBxhJVsSsAWg',	0xFF8AB6D4],
+		[''],
 		['Original Mod Teams'],
 		['Friday Night Funkin\' D-Sides Team',		'dsides',		'Funky Remixes',					'https://gamebanana.com/mods/305122',	0xFFE455D8],
 		['The Full-Ass Tricky Mod Team',		'tricky',		'Tricky',					'https://gamebanana.com/mods/44334',	0xFF185F40],
