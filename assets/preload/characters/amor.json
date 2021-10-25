@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Amor idle dance"
+		},
+		{
+			"offsets": [
+				33,
+				2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Amor Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				-13,
+				-16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Amor Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				13,
+				41
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Amor Sing Note UP"
+		},
+		{
+			"offsets": [
+				-1,
+				2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Amor Sing Note RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/amor_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "amor",
+	"flip_x": false,
+	"healthbar_colors": [
+		58,
+		104,
+		255
+	],
+	"camera_position": [
+		0,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				248,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Dad_Sing_Note_RIGHT"
+		},
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Dad_idle_dance"
+		},
+		{
+			"offsets": [
+				16,
+				-103
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Dad_Sing_Note_DOWN"
+		},
+		{
+			"offsets": [
+				26,
+				71
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Dad_Sing_Note_UP"
+		},
+		{
+			"offsets": [
+				46,
+				-18
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Dad_Sing_Note_LEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TABI",
+	"position": [
+		60,
+		20
+	],
+	"healthicon": "tabiicons",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		187,
+		129
+	],
+	"camera_position": [
+		140,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
