@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-24,
 				-14
 			],
-			"anim": "sad",
+			"loop": false,
 			"fps": 24,
-			"name": "Sad",
+			"anim": "sad",
 			"indices": [
 				0,
 				1,
@@ -23,46 +22,47 @@
 				10,
 				11,
 				12
-			]
+			],
+			"name": "Sad"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				2,
 				-7
 			],
-			"anim": "scared",
+			"loop": true,
 			"fps": 24,
-			"name": "Scared",
+			"anim": "scared",
+			"indices": [],
+			"name": "Scared"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Idle Right",
 			"indices": []
 		},
 		{
-			"offsets": [
-				0,
-				-9
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "danceRight",
 			"loop": false,
-			"name": "Idle Right"
-		},
-		{
 			"offsets": [
 				0,
 				-9
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "danceLeft",
-			"loop": false,
-			"name": "Idle Left"
+			"fps": 24,
+			"name": "Idle Left",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/GF_Standing_Sway",
 	"position": [
-		400,
+		200,
 		190
 	],
 	"healthicon": "gf",

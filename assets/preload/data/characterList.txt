@@ -16,6 +16,7 @@ gf
 gf-car
 gf-christmas
 gf-pixel
+gf-standing
 kapi-playable
 little-man-playable
 majin-playable
