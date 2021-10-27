@@ -1,6 +1,8 @@
 {
 	"songs": [
-		["Lo-Fight", "whitty", [29, 30, 53]]
+		["Test", "bf-pixel", [123, 214, 246]],
+		["Lo-Fight", "whitty", [29, 30, 53]],
+		["Worship", "sarv", [246, 145, 197]]
 	],
 
 	"weekCharacters": [

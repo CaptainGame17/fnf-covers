@@ -26,6 +26,7 @@ class CreditsState extends MusicBeatState
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Everyone Sings Team'],
 		['Captain',		'captain',		'Cover Creator & Mod Maker',					'https://www.youtube.com/channel/UCStTKMMLms3GBxhJVsSsAWg',	0xFF8AB6D4],
+		['Placed2nd',		'mfm',		'Recharts for Mid-Fight Masses',					'https://youtu.be/dR7bdwbgAy4',	0xFFF691C5], // originally had this under original mod teams but last time i checked a team had to have more than 2 people to be considered a team
 		[''],
 		['Original Mod Teams'],
 		['A.G.O.T.I. Team',		'agoti',		'A.G.O.T.I.',					'https://gamebanana.com/mods/284934',	0xFFBA1E24],
@@ -34,6 +35,7 @@ class CreditsState extends MusicBeatState
 		['Bob and Bosip Team',		'bobandbosip',		'Bob, Bosip, Amor...',					'https://gamebanana.com/mods/297087',	0xFF3A68FF],
 		['Carol Team',		'carol',		'Carol',					'https://gamebanana.com/mods/42811',	0xFF666699], // nice 2
 		['Friday Night Fever Team',		'fridaynightfever',		'CesarFever, Taki, Tea...',					'https://gamebanana.com/mods/310465',	0xFFC353E3],
+		['Mid-Fight Masses Team',		'mfm',		'Sarvente, Ruv, Selever',					'https://c.tenor.com/3nt7d7VNQ9QAAAAd/sarv-sarvente.gif',	0xFFF691C5],
 		['Nonsense Team',		'nonsense',		'Nonsense',					'https://gamebanana.com/mods/292607',	0xFF74E7FF],
 		['Pinkie Team',		'pinkie',		'Pinkie Pie',					'https://drive.google.com/file/d/1TjLTgFItJ_-qSIvl0d3f4_wPiZaQBtev/view?usp=sharing',	0xFFFFFF99],
 		['Shaggy Team',		'shaggy',		'Various Shaggys',					'https://gamejolt.com/games/fnf-shaggy/643999',	0xFF33724A],
@@ -48,6 +50,7 @@ class CreditsState extends MusicBeatState
 	 //	['Friday Night Funkin\' D-Sides Team',		'dsides',		'Funky Remixes',					'https://gamebanana.com/mods/305122',	0xFFE455D8],
 	 //	['HEARTBREAK: Vs Girlfriend Team',		'vsgirlfriend',		'Girlfriend',					'https://gamebanana.com/mods/46716',	0xFFA5004D],
 	 //	['Impostor Team',		'impostor',		'A bunch of sussy bakas',					'https://gamebanana.com/mods/55652',	0xFFFF3333],
+		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
