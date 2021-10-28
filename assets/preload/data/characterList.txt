@@ -1,5 +1,7 @@
 agoti
 amor
+arch
+bb-playable
 bf
 bf-car
 bf-christmas
@@ -44,3 +46,13 @@ tankman-playable
 tord-playable
 tricky
 whitty
+annie-playable
+selever-playable
+cheeky
+sonicexe
+eteled-playable
+zardy-playable
+retro
+ace-playable
+blu
+cerbera-playable

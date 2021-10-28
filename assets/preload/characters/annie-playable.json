@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "monster idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "monster up note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-86
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "monster down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				50,
+				2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Monster Right note"
+		},
+		{
+			"offsets": [
+				41,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Monster left note"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/annie",
+	"position": [
+		-170,
+		50
+	],
+	"healthicon": "annie",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		32,
+		67
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Cerb idle dance"
+		},
+		{
+			"offsets": [
+				14,
+				-23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Cerb Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				12,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Cerb Sing Note RIGHT"
+		},
+		{
+			"offsets": [
+				16,
+				21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Cerb Sing Note UP"
+		},
+		{
+			"offsets": [
+				46,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Cerb Sing Note LEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cerb",
+	"position": [
+		70,
+		410
+	],
+	"healthicon": "cerbera",
+	"flip_x": false,
+	"healthbar_colors": [
+		222,
+		66,
+		235
+	],
+	"camera_position": [
+		90,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

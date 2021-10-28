@@ -1,0 +1,153 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				3,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "monster idle",
+			"indices": [
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-30,
+				20
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Monster left note",
+			"indices": [
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "monster up note",
+			"indices": [
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-51,
+				30
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Monster Right note",
+			"indices": [
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-50,
+				-80
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "monster down",
+			"indices": [
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"offsets": [
+				3,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Hank Idle"
+		},
+		{
+			"offsets": [
+				-18,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Hank Up note"
+		},
+		{
+			"offsets": [
+				102,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Hank right note"
+		},
+		{
+			"offsets": [
+				-1,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Hank Left Note"
+		},
+		{
+			"offsets": [
+				70,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Hank Down Note"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hank_assets",
+	"position": [
+		10,
+		150
+	],
+	"healthicon": "hank",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		21,
+		0
+	],
+	"camera_position": [
+		40,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

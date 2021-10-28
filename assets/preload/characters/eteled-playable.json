@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "eteled idle dance"
+		},
+		{
+			"offsets": [
+				26,
+				8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "eteled Sing Note UP"
+		},
+		{
+			"offsets": [
+				8,
+				-36
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "eteled Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				102,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "eteled Sing Note RIGHT"
+		},
+		{
+			"offsets": [
+				21,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "eteled Sing Note LEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/eteled1_assets",
+	"position": [
+		90,
+		110
+	],
+	"healthicon": "eteled",
+	"flip_x": false,
+	"healthbar_colors": [
+		125,
+		150,
+		201
+	],
+	"camera_position": [
+		130,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
