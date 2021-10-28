@@ -1,134 +1,169 @@
 {
 	"animations": [
 		{
-			"loop": true,
-			"offsets": [
-				3,
-				0
-			],
-			"anim": "idle-loop",
-			"fps": 24,
-			"name": "monster idle",
-			"indices": [
-				12,
-				13,
-				14
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-30,
-				20
-			],
-			"anim": "singLEFT-loop",
-			"fps": 24,
-			"name": "Monster left note",
-			"indices": [
-				17,
-				18,
-				19
-			]
-		},
-		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singUP-loop",
+			"anim": "idle",
 			"fps": 24,
-			"name": "monster up note",
-			"indices": [
-				21,
-				22,
-				23
-			]
+			"name": "Hank Idle",
+			"indices": []
 		},
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
-				-51,
-				30
+				-15,
+				2
 			],
-			"anim": "singRIGHT-loop",
+			"anim": "singUP",
 			"fps": 24,
-			"name": "Monster Right note",
-			"indices": [
-				12,
-				13,
-				14
-			]
+			"name": "Hank Up note",
+			"indices": []
 		},
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
-				-50,
-				-80
+				102,
+				10
 			],
-			"anim": "singDOWN-loop",
+			"anim": "singLEFT",
 			"fps": 24,
-			"name": "monster down",
-			"indices": [
-				27,
-				28,
-				29
-			]
+			"name": "Hank right note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Hank Left Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Hank Down Note",
+			"indices": []
 		},
 		{
 			"offsets": [
-				3,
+				176,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hanktaunt"
+		},
+		{
+			"offsets": [
+				0,
 				0
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
-			"anim": "idle",
-			"loop": false,
+			"anim": "idle-loop",
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
 			"name": "Hank Idle"
 		},
 		{
+			"loop": true,
 			"offsets": [
-				-18,
-				4
+				-15,
+				2
 			],
-			"indices": [],
+			"anim": "singUP-loop",
 			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
-			"name": "Hank Up note"
+			"name": "Hank Up note",
+			"indices": [
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"offsets": [
+				70,
+				10
+			],
+			"indices": [
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"loop": true,
+			"name": "Hank Down Note"
 		},
 		{
 			"offsets": [
 				102,
 				10
 			],
-			"indices": [],
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			],
 			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
+			"anim": "singLEFT-loop",
+			"loop": true,
 			"name": "Hank right note"
 		},
 		{
 			"offsets": [
 				-1,
-				20
+				16
 			],
-			"indices": [],
+			"indices": [
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
 			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
+			"anim": "singRIGHT-loop",
+			"loop": true,
 			"name": "Hank Left Note"
-		},
-		{
-			"offsets": [
-				70,
-				20
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "Hank Down Note"
 		}
 	],
 	"no_antialiasing": false,

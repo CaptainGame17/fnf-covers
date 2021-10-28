@@ -2,65 +2,65 @@
 	"animations": [
 		{
 			"offsets": [
-				10,
+				0,
 				0
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Agoti_Idle"
+			"loop": false,
+			"name": "SONICmoveIDLE"
 		},
 		{
 			"offsets": [
-				60,
-				-189
+				120,
+				-11
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Agoti_Down"
+			"loop": false,
+			"name": "SONICmoveDOWN"
 		},
 		{
 			"offsets": [
-				109,
-				80
+				19,
+				45
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Agoti_Up"
+			"loop": false,
+			"name": "SONICmoveUP"
 		},
 		{
 			"offsets": [
-				221,
-				30
+				174,
+				-13
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Agoti_Left"
+			"loop": false,
+			"name": "SONICmoveLEFT"
 		},
 		{
 			"offsets": [
-				126,
-				-53
+				20,
+				56
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Agoti_Right"
+			"loop": false,
+			"name": "SONICmoveRIGHT"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/AGOTI",
+	"image": "characters/SonicAssets",
 	"position": [
 		10,
-		-90
+		140
 	],
 	"healthicon": "sonicexe",
 	"flip_x": false,
@@ -70,8 +70,8 @@
 		183
 	],
 	"camera_position": [
-		-170,
-		-40
+		-60,
+		20
 	],
 	"sing_duration": 6.1,
 	"scale": 1
