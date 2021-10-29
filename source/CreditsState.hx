@@ -26,23 +26,32 @@ class CreditsState extends MusicBeatState
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Everyone Sings Team'],
 		['Captain',		'captain',		'Cover Creator & Mod Maker',					'https://www.youtube.com/channel/UCStTKMMLms3GBxhJVsSsAWg',	0xFF8AB6D4],
-		['Placed2nd',		'mfm',		'Recharts for Mid-Fight Masses',					'https://youtu.be/dR7bdwbgAy4',	0xFFF691C5], // originally had this under original mod teams but last time i checked a team had to have more than 2 people to be considered a team
+		['Placed2nd',		'mfm',		'Recharts for Mid-Fight Masses',					'https://youtu.be/dR7bdwbgAy4',	0xFFF691C5],
+		['SugarRatio',		'zardy',		'Reanimated Zardy',					'https://gamebanana.com/mods/183664',	0xFF2C253B],
 		[''],
 		['Original Mod Teams'],
 		['A.G.O.T.I. Team',		'agoti',		'A.G.O.T.I.',					'https://gamebanana.com/mods/284934',	0xFFBA1E24],
+		['Accelerant Kade Engine Port',		'accelerant',		'Ported Accelerant Hank to Kade Engine',					'https://gamebanana.com/mods/328054',	0xFFFF1500],
+		['Ace Team',		'ace',		'Ace',					'https://gamebanana.com/mods/311759',	0xFFBAE2FF],
 		['Arcade Showdown Team',		'kapi',		'Kapi & Mr. Game and Watch',					'https://gamebanana.com/mods/44683',	0xFF747585],
+		['Arch Team',		'arch',		'Arch, BBpanzu',					'https://gamebanana.com/mods/319914',	0xFF009933],
 		['Back Alley Blitz Team',		'whitty',		'Whitty & Updike',					'https://c.tenor.com/bDln6hWwCe0AAAAd/fnf-friday-night-funkin.gif',	0xFF1D1E35],
 		['Bob and Bosip Team',		'bobandbosip',		'Bob, Bosip, Amor...',					'https://gamebanana.com/mods/297087',	0xFF3A68FF],
 		['Carol Team',		'carol',		'Carol',					'https://gamebanana.com/mods/42811',	0xFF666699], // nice 2
+		['Cheeky Team',		'cheeky',		'Cheeky',					'https://gamebanana.com/mods/297664',	0xFF3FBFF6],
+		['Eteled Team',		'eteled',		'Eteled, Austin',					'https://gamebanana.com/mods/313084',	0xFF7D96C9],
+		['FNF: ONLINE VS Team',		'accelerant',		'Hank',					'https://gamebanana.com/mods/286594',	0xFFFF1500], // accelerant is a fucking banger
 		['Friday Night Fever Team',		'fridaynightfever',		'CesarFever, Taki, Tea...',					'https://gamebanana.com/mods/310465',	0xFFC353E3],
+		['literally every fnf mod team ever',		'bobsonslaught',		'Bob, Ron, & Little Man',					'https://gamebanana.com/mods/285296',	0xFFFFFFFF],
 		['Mid-Fight Masses Team',		'mfm',		'Sarvente, Ruv, Selever',					'https://c.tenor.com/3nt7d7VNQ9QAAAAd/sarv-sarvente.gif',	0xFFF691C5],
 		['Nonsense Team',		'nonsense',		'Nonsense',					'https://gamebanana.com/mods/292607',	0xFF74E7FF],
 		['Pinkie Team',		'pinkie',		'Pinkie Pie',					'https://drive.google.com/file/d/1TjLTgFItJ_-qSIvl0d3f4_wPiZaQBtev/view?usp=sharing',	0xFFFFFF99],
+		['RetroSpecter Team',		'retro',		'RetroSpecter, Sakuroma',					'https://gamebanana.com/mods/317366',	0xFF17D8E4],
 		['Shaggy Team',		'shaggy',		'Various Shaggys',					'https://gamejolt.com/games/fnf-shaggy/643999',	0xFF33724A],
 		['Smoke \'Em Out Struggle Team',		'garcello',		'Garcello',					'https://gamebanana.com/mods/166531',	0xFF00FF90],
 		['Sunday Team',		'sunday',		'Sunday',					'https://gamebanana.com/mods/300849',	0xFF669999], // nice
 		['The Full-Ass Tricky Mod Team',		'tricky',		'Tricky',					'https://gamebanana.com/mods/44334',	0xFF185F40],
-		['literally every fnf mod team ever',		'bobsonslaught',		'Bob, Ron, & Little Man',					'https://gamebanana.com/mods/285296',	0xFFFFFFFF],
+		['Zardy Team',		'zardy',		'Zardy, Cablecrow',					'https://gamebanana.com/mods/44366',	0xFF2C253B], // i tried sorting the credits alphabetically but according to notepad++, z comes before s. maybe i was taught wrong but last time i checked z is dead last in the alphabet
 	 	['Sonic.EXE Team',		'sonicexe',		'Sonic.EXE, Majin Sonic, Sunky.MPEG',					'https://gamebanana.com/mods/316022',	0xFF0058B7],
 	 	['Tabi Team',		'tabi',		'Tabi',					'https://gamebanana.com/mods/286388',	0xFFFFBB81],
 	 	['Tord Team',		'tord',		'Tord',					'https://gamebanana.com/mods/44406',	0xFFCC3333],
