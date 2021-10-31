@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "austin idle dance"
+		},
+		{
+			"offsets": [
+				-50,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "austin Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				-340
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "austin Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				0,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "austin Sing Note UP"
+		},
+		{
+			"offsets": [
+				-10,
+				-160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "austin Sing Note RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/austin_assets",
+	"position": [
+		0,
+		-90
+	],
+	"healthicon": "austin",
+	"flip_x": false,
+	"healthbar_colors": [
+		180,
+		24,
+		24
+	],
+	"camera_position": [
+		30,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-100,
 				70
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "SelIdle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "SelIdle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-170,
 				81
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "SelDown",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SelDown"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-77,
 				87
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "SelUp",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "SelUp"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-90,
 				80
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "SelHey",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "SelHey"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-109,
 				80
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "SelLeft"
+			"fps": 24,
+			"name": "SelLeft",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-74,
 				81
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "SelRight"
+			"fps": 24,
+			"name": "SelRight",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/big_monikia_icon",
+	"image": "characters/selever_sheet",
 	"position": [
 		-180,
-		-280
+		-10
 	],
 	"healthicon": "bigmonika",
 	"flip_x": false,
@@ -81,9 +81,9 @@
 		101
 	],
 	"camera_position": [
-		-155,
-		-60
+		110,
+		-90
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }

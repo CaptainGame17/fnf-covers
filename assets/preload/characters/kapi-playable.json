@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Dad idle dance"
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				25
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Dad Sing Note RIGHT"
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				-30
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Dad Sing Note DOWN"
+			"fps": 24,
+			"name": "Dad Sing Note DOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				16,
 				50
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Dad Sing Note UP"
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Dad Sing Note LEFT"
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -65,9 +65,9 @@
 	"healthicon": "kapi",
 	"flip_x": false,
 	"healthbar_colors": [
-		116,
-		117,
-		133
+		118,
+		113,
+		158
 	],
 	"camera_position": [
 		-30,
