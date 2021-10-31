@@ -57,3 +57,9 @@ tord-playable
 tricky
 whitty
 zardy-playable
+happymouse
+happymouse-playable
+big-monika
+minus-bf
+selever
+minus-dad
