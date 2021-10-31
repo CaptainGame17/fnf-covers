@@ -85,3 +85,6 @@ black-playable
 matt-playable
 bob-scary
 tricky-ex
+ron-playable
+zardy
+impostor
