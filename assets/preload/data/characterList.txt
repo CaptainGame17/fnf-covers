@@ -68,3 +68,4 @@ cablecrow
 whitty-ballistic
 updike-playable
 tankman
+big-monika-icon

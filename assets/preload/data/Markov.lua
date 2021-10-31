@@ -22,7 +22,7 @@ end
 -- noteType: The note type string/tag
 -- isSustainNote: If it's a hold note, can be either true or false
 function goodNoteHit(id, noteData, noteType, isSustainNote)
-	if noteType == 'Instakill Note' then
+	if noteType == 'Markov' then
 	noAnimation = true;
 		-- put something here if you want
 	end
@@ -31,7 +31,7 @@ end
 -- Called after the note miss calculations
 -- Player missed a note by letting it go offscreen
 function noteMiss(id, noteData, noteType, isSustainNote)
-	if noteType == 'Instakill Note' then
+	if noteType == 'Markov' then
 		-- put something here if you want
 	end
 end
