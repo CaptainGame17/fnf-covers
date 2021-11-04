@@ -12,10 +12,10 @@ using StringTools;
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
-		["Pre-Mature Defusion",			"Beat Lo-Fight with no Misses.",			'lofight_nomiss',		false],
-		["Offer Denied",				"Beat Worship with no Misses.",				'worship_nomiss',		false],
-		["Persistent",					"Beat Epiphany with no Misses.",			'epiphany_nomiss',		false],
-		["Drippin'!",				"Beat Among Us Drip 2 with no Misses.",				'drip2_nomiss',		false],
+		["Pre-Mature Defusion",			"Beat Lo-Fight with no Misses.",					'lofight_nomiss',		false],
+		["Offer Denied",				"Beat Worship with no Misses.",						'worship_nomiss',		false],
+		["Persistent",					"Beat Epiphany with no Misses.",					'epiphany_nomiss',		false],
+		["Drippin!",					"Beat Among Drip 2 with no Misses.",				'drip2_nomiss',			false],
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
 		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],
 		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",			'roadkill_enthusiast',	false],

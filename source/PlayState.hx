@@ -3947,7 +3947,7 @@ class PlayState extends MusicBeatState
 						if(Paths.formatToSongPath(SONG.song) == 'epiphany' && songMisses < 1 && !usedPractice) {
 							unlock = true;
 						}
-												case 'drip2_nomiss':
+						case 'drip2_nomiss':
 						if(Paths.formatToSongPath(SONG.song) == 'amongdrip2' && songMisses < 1 && !usedPractice) {
 							unlock = true;
 						}
