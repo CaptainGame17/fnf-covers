@@ -2865,7 +2865,7 @@ class PlayState extends MusicBeatState
 		if(achievementObj != null) {
 			return;
 		} else {
-			var achieve:String = checkForAchievement(['lofight_nomiss', 'worship_nomiss', 'epiphany_nomiss', 'ur_bad',
+			var achieve:String = checkForAchievement(['lofight_nomiss', 'worship_nomiss', 'epiphany_nomiss', 'drip2_nomiss', 'ur_bad',
 				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
 
 			if(achieve != null) {
@@ -3945,6 +3945,10 @@ class PlayState extends MusicBeatState
 						}
 						case 'epiphany_nomiss':
 						if(Paths.formatToSongPath(SONG.song) == 'epiphany' && songMisses < 1 && !usedPractice) {
+							unlock = true;
+						}
+												case 'drip2_nomiss':
+						if(Paths.formatToSongPath(SONG.song) == 'amongdrip2' && songMisses < 1 && !usedPractice) {
 							unlock = true;
 						}
 					case 'ur_bad':
