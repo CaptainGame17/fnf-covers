@@ -624,7 +624,42 @@ class PlayState extends MusicBeatState
 					bg.scale.set(6, 6);
 					bg.antialiasing = false;
 					add(bg);
-				}
+				}	
+				
+			case 'missingno':
+				defaultCamZoom = 0.6;
+				isPixelStage = true;
+				showCountdown = false;
+
+				var resizeBG:Float = 6;
+				var consistentPosition:Array<Float> = [-670, -240];
+
+				var background:FlxSprite = new FlxSprite(consistentPosition[0] + 30, consistentPosition[1]);
+				
+				background.frames = Paths.getSparrowAtlas('missingnoBG_Assets', 'shared');
+				background.animation.addByPrefix('idle', 'sky', 24, true);
+				background.animation.play('idle');
+				background.scale.set(resizeBG, resizeBG);
+				background.updateHitbox();
+				background.scrollFactor.set(0.3, 0.3);
+				add(background);
+
+				missingnoOcean = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+				missingnoOcean.frames = Paths.getSparrowAtlas('missingnoBG_Assets', 'shared');
+				missingnoOcean.animation.addByPrefix('idle', 'Bg Ocean', 24, true);
+				missingnoOcean.animation.play('idle');
+				missingnoOcean.scale.set(resizeBG, resizeBG);
+				missingnoOcean.updateHitbox();
+				missingnoOcean.scrollFactor.set(0.4, 0.4);
+				add(missingnoOcean);
+
+				var ground:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+				ground.frames = Paths.getSparrowAtlas('missingnoBG_Assets', 'shared');
+				ground.animation.addByPrefix('idle', 'Bg Wave', 24, true);
+				ground.animation.play('idle');
+				ground.scale.set(resizeBG, resizeBG);
+				ground.updateHitbox();
+				add(ground);
 		}
 
 		if(isPixelStage) {
