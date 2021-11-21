@@ -15,7 +15,8 @@ class Achievements {
 		["Pre-Mature Defusion",			"Beat Lo-Fight with no Misses.",					'lofight_nomiss',		false],
 		["Offer Denied",				"Beat Worship with no Misses.",						'worship_nomiss',		false],
 		["Persistent",					"Beat Epiphany with no Misses.",					'epiphany_nomiss',		false],
-		["Drippin!",					"Beat Among Drip 2 with no Misses.",				'drip2_nomiss',			false],
+		["Drippin!",					"Beat Among Drip 2 with no Misses.",				'drip2_nomiss',			false], // i guess this is a red herring now but its actually just me being too lazy to chart it lol
+		["INVALID",						"Beat Madness with no Misses.",						'madness_nomiss',	false],
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
 		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],
 		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",			'roadkill_enthusiast',	false],

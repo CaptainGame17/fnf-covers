@@ -43,6 +43,7 @@ class CreditsState extends MusicBeatState
 		['Cheeky Team',							'cheeky',			'Cheeky',									'https://gamebanana.com/mods/297664',			0xFF3FBFF6],
 		['Corruption Team',						'corruption',		'Corrupted Characters',						'https://gamejolt.com/games/fnfevilmod/588842',	0xFF981A35],
 		['Eteled Team',							'eteled',			'Eteled, Austin',							'https://gamebanana.com/mods/313084',			0xFF7D96C9],
+		['FNF: Lullaby Team',					'hypnolullaby',		'Hypno, Gold, MissingNo.',					'https://gamebanana.com/mods/332345',			0xFFF9DF44],
 		['FNF: ONLINE VS Team',					'accelerant',		'Hank',										'https://gamebanana.com/mods/286594',			0xFFFF1500],
 		['Friday Night Fever Team',				'fridaynightfever',	'CesarFever, Taki, Tea...',					'https://gamebanana.com/mods/310465',			0xFFC353E3],
 		['Impostor Team',						'impostor',			'A bunch of sussy bakas',					'https://gamebanana.com/mods/55652',			0xFFFF3333],
